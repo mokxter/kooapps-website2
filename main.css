@@ -1,0 +1,723 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+@font-face {font-family:"Insaniburger with Cheese";src:url("fonts/Insanibc.eot?") format("eot"),url("/fonts/Insanibc.woff") format("woff"),url("fonts/Insanibc.ttf") format("truetype"),url("fonts/Insanibc.svg#InsaniburgerwithCheese") format("svg");font-weight:normal;font-style:normal;}
+
+
+.row {
+    overflow: hidden; }
+
+img {
+    margin: none 0; }
+.wrapper { 
+    width: 1366px; 
+    margin: 0 auto; 
+    padding: 0 15px;
+    //background-color: black;
+    position: relative;
+}
+
+
+#main-wraper > .row {
+    width: 1366px;
+    margin: 0;
+    padding: 0;
+}
+
+#home {
+    //background-image: url("assets/home/tileFillBG-home2.png");
+    background-size: 100% 100%;
+    background-repeat: repeat-x;
+    height: 768px;
+}
+
+#homeBackground1 {
+    background-color: rgb(124,218,221);
+    height: 178px;
+    width: 1366px;
+}
+
+#homeBackground2 {
+    background-color: rgb(241, 216, 128);
+    top: 178px;
+    height:215px;
+    width: 1366px;
+}
+
+#homeBackground3 {
+    background-color: rgb(124,218,221);
+    top: 393px;
+    height: 340px;
+    width: 1366px;
+}
+
+#homeBackground4 {
+    background-color: rgb(34,160, 207);
+    top: 733px;
+    height: 100px;
+    width: 1366px;
+}
+
+#games {
+    height: 768px;
+    background-repeat: repeat-x;
+    //background-image: url("assets/games/tileFillBG-1px-games.png");
+    background-size: 100% 100%;
+    background-repeat: repeat-x;
+}
+
+#gamesBackground1 {
+    background-color: rgb(34,160, 207);
+    height: 734px;
+    width: 1366px;
+    z-index: -1;
+}
+
+#gamesBackground2 {
+    background-color: rgb(152, 196, 150);
+    top: 734px;
+    height: 100px;
+    width: 1366px;
+    z-index: -1;
+}
+
+#faqs {
+    height: 768px;
+    background-repeat: repeat-x;
+    //background-image: url("assets/faqs/tileFillBG-1px-faqs.png");
+    background-size: 100% 100%;
+    background-repeat: repeat-x;
+}
+
+#faqsBackground1 {
+    background-color: rgb(152, 196, 150);
+    height: 733px;
+    width: 1366px;
+    z-index: -1;
+}
+
+#faqsBackground2 {
+    background-color: rgb(69, 69, 69);
+    top: 733px;
+    height: 100px;
+    width: 1366px;
+    z-index: -1;
+}
+
+#contactus {
+    height: 768px; background-repeat: repeat-x;
+    //background-image: url("assets/contact us/tileFillBG-1px-contactUs.png");
+    background-size: 100% 100%;
+    background-repeat: repeat-x;
+}
+
+#faqsBackground1 {
+    background-color: rgb(69, 69, 69);
+    height: 733px;
+    width: 1366px;
+    z-index: -1;
+}
+
+#about {
+    height: 768px;
+    background-repeat: repeat-x;
+    background-image: url("assets/about/tileFillBG-about2.png");
+    background-size: 100% 100%;
+    background-repeat: repeat-x;
+}
+
+
+#hiring {
+    height: 768px;
+    background-repeat: repeat-x;
+    background-image: url("assets/hiring/hiringBg-full.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#weblogo {
+    top: 50px;
+    left: 50%;
+    z-index: 3;
+    margin-left: -94px;
+}
+
+.absoluteCenter {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    display: inline-block;
+    z-index: 2;
+}
+
+div.abCenterHelper {
+    position: relative;
+    left: -50%;
+    z-index: 2;
+}
+
+#hiringButtonContainer {
+    top: 110px;
+    left: 50%;
+    margin-left: -220px;
+    z-index: 3 !important;
+}
+
+.absoluteWrapper {
+    position: absolute;
+    z-index: 2;
+}
+
+.relativeWrapper {
+    position: relative;
+    z-index: 1px;
+}
+
+#gamesTitle {
+    //left: 90px;
+}
+
+.title {
+    left: 90px;
+}
+
+.centeredAsset {
+    top: 70px;
+    left: 50%;
+}
+
+#ipad {
+    margin-left: -465px;
+}
+
+#worldMap {
+    margin-left: -388px;
+}
+
+#birdDecor {
+    left: 79%;
+    z-index: 4;
+    top: 568px;
+}
+
+#appContainerWrapper {
+    width: 889px;
+    height: 505px;
+    left: 238px;
+    top: 105px;
+}
+
+#appsContainer {
+    width: 889px;
+    height: 505px;
+    z-index: 4;
+    padding: 15px;
+    //background-color: black;
+}
+
+#appsContainer .row {
+    margin-bottom: 10px;
+}
+
+#floatingnav {
+    width: 50px;
+    left: 95%;
+}
+
+#floatingnav a {
+    display: block;
+}
+
+#floatingnav img {
+    display: block;
+    margin: 20px auto;
+    opacity: 0.6;
+}
+
+#floatingnav img:hover {
+    cursor: pointer;
+}
+
+
+#tileMidBgGames {
+    left: 50%;
+    margin-left: -27.5px;
+    z-index: 0;
+
+}
+
+#gamesChickNeck {
+    left: 451px;
+}
+
+.tileMidBg {
+    left: 50%;
+    margin-left: -28.5px;
+    z-index: 0;
+}
+
+#tileMidBgContactus {
+    left: 50%;
+    z-index: 0;
+}
+
+#contactusFormContainer {
+    left: 246px;
+    top: 96px;
+    width: 867px;
+    height: 437px;
+}
+
+#emailTitleContainer {
+    margin: 25px;
+}
+
+#formContainer {
+    padding: 15px;
+    width: 500px;
+    top: 70px;
+}
+
+a:hover, a:link, a:active {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#contactUsButtonContainer {
+    top: 228px;
+    left: 50%;
+    margin-left: -180px;
+    z-index: 3 !important;
+}
+
+#gamesButtonContainer {
+    top: 280px;
+    left: 50%;
+    margin-left: -46px;
+    z-index: 3 !important;
+}
+
+#faqsButtonContainer {
+    top: 218px;
+    left: 57%;
+    z-index: 3 !important;
+}
+
+#aboutButtonContainer {
+    top: 100px;
+    left: 59%;
+    z-index: 3 !important;
+}
+
+#tileMidBg {
+    left: 50%;
+    margin-left: -103px;
+}
+
+#tileMidBg {
+    top: 0px;
+    z-index: 2;
+}
+
+
+#faqsContainer2 {
+    top: 75px;
+    left: 50%;
+    width: 1124px;
+    height: 613px;
+    margin-left: -562px;
+    //background-color: black;
+}
+
+#faqsContainer2 > div > .appTab > img {
+    cursor: pointer;
+}
+
+#faqsContainer2 > div > div > img {
+    margin: 7px;
+}
+
+#appIcons {
+    width: 100px;
+    height: 613px;
+    //background-color: white;
+    float: left;
+}
+
+.appTab {
+    margin-bottom: 2px;
+}
+
+.activeFaq {
+    background-image: url("assets/faqs/tabIcon_selected.png");
+    background-size: 100% 100%;
+    width: 100px;
+    height: 75px;
+    float: right;
+}
+
+.inactiveFaq {
+    background-image: url("assets/faqs/tabIcon_unselected.png");
+    background-size: 100% 100%; 
+    width: 87px;
+    height: 75px;
+    float: right;
+}
+
+#faqsTextContainer {
+    width: 1022px;
+    height: 611px;
+    border-top: 1px solid #98c496;
+    background-color: white;
+    float: left;
+    padding-left: 20px;
+}
+
+.faqsScrollContainer {
+    width: 1002px;
+    height: inherit;
+    overflow-y: auto;
+}
+
+.appStoreImage {
+    margin: 10px 0 10px 10px;
+    width: 194px;
+}
+
+.gamesIcon {
+    width: 62px;
+}
+
+#extraImage {
+    left: 100%;
+    //margin-left: -37.5px;
+    margin-left: -206px;
+}
+
+#contactusMonitor {
+    left: 50%;
+    margin-left: -540px;
+}
+
+
+#kooappsUS {
+    top: 200px;
+    left: 23%;
+}
+
+#kooappsTW {
+    top: 246px;
+    left: 55%;
+}
+
+#kooappsPH {
+    top: 323px;
+    left: 829px;
+}
+
+#kooappsUSTextBubble {
+    width: 156px;
+    height: 91px;
+    background-image: url("assets/about/kooappsUSInfo.png");
+    top: 134px;
+    left: 446px;
+}
+
+#kooappsUSTextBubble *, #kooappsPHTextBubble * {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #000;
+    font-size: 10px;
+    margin-left: 8px;
+}
+
+#USFacebook {
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+#PHFacebook {
+    margin-top: 60px;
+    margin-bottom:5px;
+}
+
+#kooappsUSTextBubble span {
+    margin: 10px;
+}
+
+#kooappsTWTextBubble {
+    width: 190px;
+    height: 85px;
+    background-image: url("assets/about/kooappsTWInfo.png");
+    top: 170px;
+    left: 929px;
+}
+
+#kooappsPHTextBubble {
+    width: 209px;
+    height: 103px;
+    background-image: url("assets/about/kooappsPHInfo.png");
+    top: 258px;
+    left: 979px;
+}
+
+.textBubble img, .textBubble span {
+    display: block;
+    float: left;
+}
+
+#kooappsDescription {
+    width: 1000px;
+    top: 570px;
+    left: 50%;
+    margin-left: -500px;
+}
+
+#kooappsDescription * {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 15px;
+    letter-spacing: -0.5px;
+    text-align: justify;
+}
+
+#tabContentContainer > div {
+    height: inherit;
+}
+
+#homeTabContent {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    //color: rgb(82,72,72);
+    color: #000;
+    font-size: 25px;
+    text-align: left;
+    height: 224px;
+    width: 500px;
+    top: 50%;
+    left: 45%;
+    margin-left: -212px;
+    margin-top: -112px;
+}
+
+#homeTabContent p {
+    margin: auto;
+}
+
+
+.descriptionBold {
+    font-weight: bolder;
+    font-size: 18px !important;
+}
+
+#leftFooter {
+    font-family: 'Lato', sans-serif;
+    top: 740px;
+    margin-left: 10px;
+}
+
+#leftFooter a {
+    color: #000;
+}
+
+#rightFooter {
+    font-family: 'Lato', sans-serif;
+    top: 740px;
+    margin-left: 1200px;
+}
+
+#facebookButton {
+    top: 200px;
+    left: 720px;
+}
+#twitterButton { top: 200px;
+    left: 575px;
+}
+
+#contactus label, #contactus p {
+    font-family: "Insaniburger with Cheese";
+}
+
+#contactus label {
+    font-size: 18px;
+    padding-top: 0;
+}
+
+#contactus p {
+    font-size: 25px;
+}
+
+#contactus input {
+    border-style: none;
+    background-image: url("assets/contact us/textBox-small.png");
+}
+
+#contactus textarea {
+    resize: none;
+    height: 138px;
+    border-style: none;
+    background-image: url("assets/contact us/textBox-big.png");
+}
+
+#youCanAlsoText {
+    width: 200px;
+    left: 603px;
+    top: 115px;
+}
+
+#formSubmitButton {
+    padding: 0;
+    background-image: none !important;
+}
+
+#tabContainer {
+    top: 65px;
+    left: 50px;
+}
+
+#hiringTabs {
+    top: 140px;
+    left: 65px;
+}
+
+.hiringTab {
+    border: 1px solid;
+    background-color: white;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+#homeHiring {
+    width: 284px;
+    height: 130px;
+    left: 50px;
+    top: 10px;
+    -webkit-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+    transform: rotate(6deg);    
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9945218953682733, M12=-0.10452846326765342, M21=0.10452846326765342, M22=0.9945218953682733, SizingMethod='auto expand')";
+    filter: alpha(opacity=0);
+}
+
+
+#homeHiring:hover {
+    -ms-zoom: 1 !important;
+    cursor: pointer !important;
+}
+
+#phHiring {
+    top: 173px;
+    width: 91px;
+    height: 278px;
+    min-height: 278px;
+    max-height: 278px;
+    -webkit-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+    transform: rotate(6deg);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9945218953682733, M12=-0.10452846326765342, M21=0.10452846326765342, M22=0.9945218953682733, SizingMethod='auto expand')";
+    filter: alpha(opacity=0);
+}
+
+#phHiring:hover {
+    -ms-zoom: 1 !important;
+    cursor: pointer !important;
+}
+
+#twHiring {
+    top: 184px;
+    left: 92px;
+    width: 95px;
+    height: 280px;
+    min-height: 280px;
+    max-height: 280px;
+    -webkit-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+    transform: rotate(6deg);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9945218953682733, M12=-0.10452846326765342, M21=0.10452846326765342, M22=0.9945218953682733, SizingMethod='auto expand')";
+    filter: alpha(opacity=0);
+}
+
+#twHiring:hover {
+    -ms-zoom: 1 !important;
+    cursor: pointer !important;
+}
+
+#tabContentContainer {
+    width: 720px;
+    height: 700px;
+    left: 577px;
+}
+
+#mobileGameDeveloperImage {
+    left: 209px;
+    top: 42px;
+}
+
+#graphicDesignerImage {
+    top: 393px;
+    left: 79px;
+}
+
+#twMobileGameDeveloperImage {
+    left: 75px;
+    top: 220px;
+}
+
+.paragraph1 {
+    width: 300px;
+    font-family: "Lato", sans-serif;
+    font-size: 22px;
+}
+
+.paragraph2 {
+    width: 400px;
+    font-size: 30px;
+    letter-spacing: -0.5px;
+    color: white;
+    font-weight: 700;
+
+}
+
+#p1 {
+    top: 260px;
+    left: 100px;
+}
+
+#p2 {
+    top: 290px;
+    left: 100px;
+}
+
+#twP1 {
+    top: 140px;
+    left: 100px;
+}
+
+#twP2 {
+    left: 100px;
+    top: 165px;
+}
+
+.hide {
+    display: none;
+}
+
+#bannerContainer {
+    width: 982px;
+    height: 265px;
+    left: 50%;
+    margin-left: -491px;
+    top: 415px;
+}
+
+.flexslider{
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    margin: 0px !important;
+}
+
